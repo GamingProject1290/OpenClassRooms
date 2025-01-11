@@ -1,0 +1,241 @@
+﻿h1, h2, h3 {
+    color: deepskyblue;
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+    /* Gaming Project*/
+}
+
+p {
+    text-align: center;
+    margin: 50px;
+    margin: auto;
+    padding-top: 4px;
+    padding-bottom: 50px;
+    width: 60%;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.centered-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centre toute la liste */
+    text-align: center; /* Centre le texte des éléments */
+    padding-left: 0;
+    
+}
+
+.centered-list ol {
+    display: block;
+    align-items: center; 
+    text-align: center; 
+    padding-left: 0;
+    }
+
+
+.centered-list ul {
+        list-style-position: inside; /* Fait coller les puces au texte */
+    }
+
+.centered-list ol {
+        list-style-position: inside; /* Fait coller les numéros au texte */
+    }
+.centered-list li {
+        list-style-position: inside; 
+    }
+
+
+.Image_1:hover {
+    display: block;
+    margin: auto;
+    border: 5px double deepskyblue;
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px deepskyblue;
+    opacity: 0.9;
+    transform: scale(1.1);
+}
+
+
+
+    em {
+        color: deepskyblue;
+    }
+
+
+#Logo:hover {
+    display: block;
+    margin: auto;
+    border: 5px double deepskyblue;
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px deepskyblue;
+    opacity: 0.9;
+    transform: scale(1.1);
+}
+
+
+
+a {
+    font-family: "Inter", serif;
+    font-size: 1.3em;
+    font-style: normal;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    text-shadow: 10px 10px 20px deepskyblue
+}
+
+    a:hover {
+       background: linear-gradient(to right,deepskyblue,white);
+        text-decoration: underline;
+
+    }
+
+    a:active {
+        color: darkred;
+    }
+
+    a:focus {
+        background-color: deepskyblue;
+    }
+
+   
+
+body {
+    color: #f0f0f0;
+    font-family: 'Manrope', sans-serif;
+    font-size: 1em;
+    margin: auto;
+    text-align: center;
+}
+
+.Fond {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('Images/Fond.jpg') no-repeat center center fixed;
+    background-size: cover;
+    filter: brightness(20%);
+    z-index: -1;
+    background-position: top;
+
+}
+.Banniere {
+    margin: auto;
+    width: 60%;
+    height: 180px;
+    background-position: center;
+  
+}
+
+footer {
+    background: linear-gradient(to bottom, #083002, #1a1818);
+    padding: 20px 50px;
+}
+
+section {
+    padding: 80px;
+}
+
+.contener {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.element1 {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+    
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #0072ff;
+    color: white;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: auto;
+    color: white;
+}
+
+.form-nom-email {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.form-column {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+input,
+textarea {
+    padding: 15px;
+    border-radius: 3px;
+    border: none;
+}
+
+label {
+    margin-bottom: 10px;
+}
+
+input[type='submit'] {
+    width: 200px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+@media screen and (max-width: 996px) {
+    header nav {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+        header nav img {
+            margin-bottom: 20px;
+        }
+
+    header,
+    footer {
+        padding: 20px 20px;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    section {
+        padding: 50px 20px 50px 20px;
+    }
+
+    nav a {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
